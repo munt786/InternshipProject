@@ -1,0 +1,160 @@
+/* ContactUs.css */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bad+Script&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #606060;
+}
+
+.contact {
+  background-color: #000000;
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 32px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Contact Details Section with Watermark */
+.contact-details {
+  flex: 1;
+  min-width: 425px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden; /* Important to contain the watermark */
+}
+
+.contact-details .content {
+  position: relative;
+  z-index: 2; /* Place content above watermark */
+}
+
+.contact-details h3 {
+  color: #d9a067;
+  margin-bottom: 24px;
+  font-family: "Tuffy", cursive;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contact-details p {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Contact Form Section with Watermark */
+.contact-form {
+  flex: 1;
+  min-width: 425px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden; /* Important to contain the watermark */
+}
+
+.contact-form .content {
+  position: relative;
+  z-index: 2; /* Place content above watermark */
+}
+
+.contact-form h3 {
+  color: #d9a067;
+  margin-bottom: 16px;
+  font-family: "Tuffy", cursive;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form button {
+  font-weight: 500;
+  background-color: #d9a067;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #b58247;
+  color: white;
+  border-color: #b58247;
+}
+
+/* Watermark Styling */
+.watermark {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.07; /* Very light, adjust as needed */
+  pointer-events: none; /* Makes it non-interactive */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  fill: currentColor; /* Uses the current text color */
+  color: #000;
+}
+
+.details-watermark {
+  /* Specific styling for the bakery icon */
+  transform: scale(1.5); /* Make it larger */
+}
+
+.form-watermark {
+  /* Specific styling for the contact icon */
+  transform: scale(1.2); /* Make it a bit larger */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  
+  .contact-details,
+  .contact-form {
+    min-width: 100%;
+  }
+}
