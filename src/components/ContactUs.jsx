@@ -46,9 +46,9 @@ function ContactUs() {
           
           <div className="content">
             <h3>Get in Touch</h3>
-            <p><strong>Location:</strong> 123 Bakery Lane, Sweet City, SC 54321</p>
-            <p><strong>Email:</strong> contact@ovenshug.com</p>
-            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Location:</strong><center> Flat No. 301, Dilip Pride Apartment, Mahesh Nagar, Nagpur, Maharashtra, 440013</center></p>
+            <p><strong>Email:</strong> aakaaiquality@gmail.com</p>
+            <p><strong>Phone:</strong> 7720900997, 9552555639</p>
             <p><strong>Business Hours:</strong></p>
             <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
             <p>Sat - Sun: 9:00 AM - 6:00 PM</p>
