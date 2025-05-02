@@ -1,6 +1,3 @@
-/* ContactUs.css */
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bad+Script&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +44,7 @@ body {
 .contact-details h3 {
   color: #d9a067;
   margin-bottom: 24px;
-  font-family: "Tuffy", cursive;
+  font-family: 'Arial', sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -77,7 +74,7 @@ body {
 .contact-form h3 {
   color: #d9a067;
   margin-bottom: 16px;
-  font-family: "Tuffy", cursive;
+  font-family: 'Arial', sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
 }
