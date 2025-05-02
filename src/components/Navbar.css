@@ -1,0 +1,12 @@
+.custom-orange-btn {
+    background-color: #d9a067 !important;
+    border-color: #d9a067 !important;
+    color: white !important;
+  }
+  
+  .custom-orange-btn:hover {
+    background-color: #c08840 !important;
+    border-color: #c08840 !important;
+    color: white !important;
+  }
+  

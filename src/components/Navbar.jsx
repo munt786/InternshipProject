@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Image } from 'react-bootstrap';
-import { Link } from 'react-router';
+import './Navbar.css';
 import { useNavigate } from 'react-router-dom';
 
 function MyNavbar() {
@@ -43,12 +43,8 @@ function MyNavbar() {
             </NavDropdown>
             <Nav.Link href="#action 7">Contact Us</Nav.Link>
             <div className="d-flex gap-2">
-                <Button variant="primary" size="sm">
-                Sign Up
-                </Button>
-                <Button variant="primary" size="sm">
-                Login
-                </Button>
+              <Button size="sm" className="custom-orange-btn">Sign Up</Button>
+              <Button size="sm" className="custom-orange-btn">Login</Button>
             </div>
           </Nav>
         </Navbar.Collapse>
