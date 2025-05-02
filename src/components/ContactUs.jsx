@@ -46,7 +46,9 @@ function ContactUs() {
           
           <div className="content">
             <h3>Get in Touch</h3>
-            <p><strong>Location:</strong><center> Flat No. 301, Dilip Pride Apartment, Mahesh Nagar, Nagpur, Maharashtra, 440013</center></p>
+            <p><strong>Location:</strong><center> PLOT NO: 1 & 2, FLAT NO -301, DILIP’S PRIDE, NIWARA COOPERATIVE HOUSING SOCIETY, NEAR SHIV
+TEMPLE, MAHESH NAGAR (NEAR ANANT NAGAR)
+NAGPUR-440013 (MAHARASHTRA, INDIA)</center></p>
             <p><strong>Email:</strong> aakaaiquality@gmail.com</p>
             <p><strong>Phone:</strong> 7720900997, 9552555639</p>
             <p><strong>Business Hours:</strong></p>

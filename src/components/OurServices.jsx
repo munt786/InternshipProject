@@ -11,12 +11,12 @@ const OurServices = () => {
         <li>Test, Examination & Review of pressure vessels & pressure plants as per Section 31 of Factories Act.</li>
         <li>Inspection of Welding, Painting and other surface coating</li>
         <li>Third Party Inspection of Welding Electrodes, Vessels, Paints, all types of surface coating and welding consumables.</li>
-        <li>Third Party Inspection - Destructive, NDT, Attribute and Variable Inspection.</li>
         <li>UPV test, Rebound hammer test, Core test, Mix Design, Lab test and so on.</li>
         <li>Calibration of Measuring & Monitoring Equipment.</li>
         <li>On-site Quality and Safety Coordination & Surveillance.</li>
         <li>Vendor Assessment Service.</li>
         <li>WPS and PQR of Welding Process.</li>
+        <li>Third Party Inspection - Destructive, NDT, Attribute and Variable Inspection.</li>
       </ul>
     </div>
   );

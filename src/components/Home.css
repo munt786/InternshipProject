@@ -1,15 +1,3 @@
-.custom-bullets {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .custom-bullets li::before {
-    content: ">> ";
-    color: #d9a067;
-    font-weight: bold;
-    margin-right: 8px;
-  }
-
   .servicecontainer{
     background-color: #fceee1;
     max-width: 1200px;
