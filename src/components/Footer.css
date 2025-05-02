@@ -1,0 +1,21 @@
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color:#ccc;
+}
+.footer-container div{
+    width: 20%;
+}
+div ul{
+    text-decoration:none;
+    cursor:pointer;
+    list-style-type:none;
+    padding:0;
+}
+div img{
+    width: 40px;
+    margin:10px;
+}
