@@ -7,8 +7,13 @@ import OurServices from './components/OurServices'
 import ContactUs from './components/ContactUs'
 import { Routes,Route } from 'react-router'
 import OurStrength from './components/OurStrength'
-// import AssociateCompanies from './components/AssociateCompanies'
+import Associates from './components/Associates'
+import Testing from './components/Testing'
+import Consultancy from './components/Consultancy'
+
+
 function App() {
+
   return (
     <>
       <MyNavbar/>
@@ -18,11 +23,14 @@ function App() {
           <Route path='/aboutus' element={<AboutUs/>}/>
           <Route path='/ourservices' element={<OurServices/>}/>
           <Route path='/ourstrength' element={<OurStrength/>}/>
-          {/* <Route path='/associatecompanies' element={<AssociateCompanies/>}/> */}
+          <Route path='/company1' element={<Associates/>}/>
+          <Route path='/company2' element={<Testing/>}/>
+          <Route path='/company3' element={<Consultancy/>}/>
           <Route path='/contactus' element={<ContactUs/>}/>
        </Routes>
       <Footer/>
     </>
   )
 }
+
 export default App

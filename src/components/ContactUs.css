@@ -1,3 +1,6 @@
+/* ContactUs.css */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bad+Script&family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +8,15 @@
 }
 
 body {
+  
   font-family: Arial, sans-serif;
   color: #333;
-  background-color: #606060;
+  background-color: #e2e2e2;
 }
 
 .contact {
-  background-color: #000000;
+  animation: fadeIn 1.5s ease-in-out;
+  /* background-color: #000000; */
   max-width: 1400px;
   margin: 2rem auto;
   padding: 32px;
@@ -31,7 +36,7 @@ body {
   background-color: #fff;
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden; /* Important to contain the watermark */
 }
@@ -44,7 +49,7 @@ body {
 .contact-details h3 {
   color: #d9a067;
   margin-bottom: 24px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Tuffy", cursive;
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -61,7 +66,7 @@ body {
   background-color: #fff;
   padding: 24px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   position: relative;
   overflow: hidden; /* Important to contain the watermark */
 }
@@ -74,7 +79,7 @@ body {
 .contact-form h3 {
   color: #d9a067;
   margin-bottom: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Tuffy", cursive;
   font-size: 1.8rem;
   font-weight: 600;
 }

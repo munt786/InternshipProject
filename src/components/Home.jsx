@@ -1,12 +1,18 @@
-import React from "react";
-import "./Home.css"
+import './Home.css'
+import IconParagraph from './IconParagraph';
+import IntroductionSection from './IntroductionSection';
+import ServicesTo from './ServicesTo';
+import Slider from './Slider';
 
-const Home = () =>{
-    return (
-        <div className="servicecontainer">
-            <h1 className="service-title">This is a Home Page</h1>
+function Home(){
+
+    return(
+        <div>
+            <Slider/>
+            <IntroductionSection/>
+            <IconParagraph/>
+            <ServicesTo/>
         </div>
     )
 }
-
 export default Home;

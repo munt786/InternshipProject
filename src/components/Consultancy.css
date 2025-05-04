@@ -1,0 +1,118 @@
+.consultancy {
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: Arial, sans-serif;
+}
+.consultancy-banner {
+    background: url('/images/consultancy1.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.consultancy-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.consultancy-banner h1 {
+    font-size: 40px;
+    position: absolute;
+    bottom: 160px;
+    left: 80px;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 2px;
+}
+.introduction {
+    padding: 60px 20px;
+    background-color: #F5F7FA;
+}
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.intro-images {
+    flex: 1 400px;
+    max-width: 500px;
+    padding: 30px;
+}
+.intro-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.intro-text {
+    flex: 1 1 400px;
+    max-width: 600px;
+}
+.intro-text h2 {
+    font-size: 2rem;
+    color: #02194B;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #C509B5;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.intro-text p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+.services {
+    padding: 60px 20px;
+    background-color: #999;
+    max-width: 100%;
+    margin: auto;
+}
+.services h2 {
+    font-size: 2rem;
+    color: #02194B;
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #C509B5;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.service-line {
+    list-style: none;
+    padding-left: 0;
+    color: black;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: justify;
+    position: relative;
+}
+.service-line li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.service-line li::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #C509B5;
+    font-weight: bold;
+}
+.service-images {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-images img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

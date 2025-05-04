@@ -46,9 +46,12 @@ function ContactUs() {
           
           <div className="content">
             <h3>Get in Touch</h3>
-            <p><strong>Location:</strong><center> Plot No: 1&2, Flat No - 301, Dilip’s Pride, Niwara Cooperative Housing Society, Near Shiv Temple, Mahesh Nagar (Near Anant Nagar) Nagpur-440013 (Maharashtra, India)</center></p>
-            <p><strong>Email:</strong> aakaaiquality@gmail.com</p>
-            <p><strong>Phone:</strong> 7720900997, 9552555639</p>
+            <p><strong>Location:</strong> Flat No. 301, Top floor,
+                Dilip's Pride, Near Shiv Mandir,
+                Mahesh Nagar, Nagpur - 440013</p>
+            <p><strong>Email:</strong> aakai.ap@gmail.com</p>
+            <p><strong>Phone:</strong> +91 7720900997 ; 
+            +91 8087763182</p>
             <p><strong>Business Hours:</strong></p>
             <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
             <p>Sat - Sun: 9:00 AM - 6:00 PM</p>

@@ -1,21 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: url('../../public/about-us.jpg') no-repeat center center fixed;
-  background-size: cover;
-  font-family: 'Arial', sans-serif;
-}
-
 .about-us-container {
+  animation: fadeIn 1.5s ease-in-out;
   background-color: #fceee1;
   max-width: 1200px;
-  margin: 60px auto 80px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  position: relative; 
 }
 
 .about-us-title {

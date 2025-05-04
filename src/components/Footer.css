@@ -1,22 +1,56 @@
-.footer-container{
-    display:flex;
-    justify-content:space-around;
-    position:relative;
-    bottom:0;
-    width: 100%;
-    background-color:#ccc;
-    padding: 20px 0;
-}
-.footer-container div{
-    width: 20%;
-}
-div ul{
-    text-decoration:none;
-    cursor:pointer;
-    list-style-type:none;
-    padding:0;
-}
-div img{
-    width: 40px;
-    margin:10px;
-}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 30px 5%;
+    background-color: #2c3e50; /* Matching Navbar */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    color: #d9a067; /* Match button and hover colors */
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li, .footer-section a, .footer-section p {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a:hover {
+    color: #d9a067;
+    text-decoration: underline;
+  }
+  
+  .footer-image {
+    width: 32px;
+    margin: 10px 10px 0 0;
+    filter: invert(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .footer-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
