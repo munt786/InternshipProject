@@ -14,7 +14,7 @@ function MyNavbar() {
       <Container fluid>
         <Navbar.Brand>
           <Link to="/home">
-            <Image src="AaakaaiLogo.jpg" sqaured className="navbar-logo" style={{height:"26px", width:"45px"}}/>
+            <Image src="AaakaaiLogo.jpg" sqaured className="navbar-logo" style={{height:"30px", width:"55px"}}/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
