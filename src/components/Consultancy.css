@@ -1,6 +1,7 @@
 .consultancy {
     animation: fadeIn 1.5s ease-in-out;
     font-family: Arial, sans-serif;
+    color: #2C2C2C;
 }
 .consultancy-banner {
     background: url('/images/consultancy1.jpg') no-repeat center center/cover;
