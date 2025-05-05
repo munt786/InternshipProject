@@ -11,7 +11,9 @@ import service4 from "../assets/thparty.jpg";
 const IntroductionSection = () => {
   return (
     <div className="intro-section">
+      
       <h2 className="intro-heading">Introduction</h2>
+      
       <p className="intro-text">
         <strong>AAKKAI ENGINEERS & ASSOCIATES</strong> is an ISO 9001 (QMS) Certified company and a leading name
         in fabrication, erection, repair, surface coating, waterproofing, grouting, and strengthening
@@ -31,7 +33,7 @@ const IntroductionSection = () => {
         <img src={scaffolding} alt="Scaffolding" className="intro-image" />
         <img src={crane} alt="Crane" className="intro-image" />
       </div>
-
+      <center><hr width="800px;" size="10"/></center>
       <h2 className="section-heading">What We Do?</h2>
       <div className="what-we-do-row">
         <div className="service-item">
