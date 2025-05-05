@@ -36,19 +36,19 @@ const IntroductionSection = () => {
       <div className="what-we-do-row">
         <div className="service-item">
           <img src={service3} alt="Load Test" className="service-image" />
-          <p className="service-title">Load Testing</p>
+          <p className="services-title">Load Testing</p>
         </div>
         <div className="service-item">
           <img src={service2} alt="Compressor" className="service-image" />
-          <p className="service-title">Compressor</p>
+          <p className="services-title">Compressor</p>
         </div>
         <div className="service-item">
           <img src={service1} alt="Training" className="service-image" />
-          <p className="service-title">Training</p>
+          <p className="services-title">Training</p>
         </div>
         <div className="service-item">
           <img src={service4} alt="Third-Party" className="service-image" />
-          <p className="service-title">Third-Party Inspection</p>
+          <p className="services-title">Third-Party Inspection</p>
         </div>
       </div>
     </div>
